@@ -1,6 +1,8 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.0;
 
+// filename : 1_normal.sol
+// 
 // Usage
 // 1. deploy "not_share_storage" smart contract.
 // 2. parameter to the remix account and run the setAddress function. 
