@@ -56,7 +56,7 @@ getUint() 에서 uint * 2 결과를 반환하는 스마트 컨트랙트로 업�
 
 2. Example 컨트랙트를 배포합니다.
 
-![remix_ide_5](./images/3_first_proxy_remix_ide_4.png)
+![remix_ide_5](./images/3_first_proxy_remix_ide_5.png)
 
 3. 배포된 Example 컨트랙트 주소를 복사합니다. 
 
