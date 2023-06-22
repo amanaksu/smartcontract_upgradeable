@@ -64,5 +64,7 @@ getUint() 에서 uint * 2 결과를 반환하는 스마트 컨트랙트로 업�
 
 ![remix_ide_5](./images/3_first_proxy_remix_ide_5.png)
 
+![remix_ide_6](./images/3_first_proxy_remix_ide_6.png)
+
 분명 내부적으로 많은 일이 있습니다. 그리고 이것이 전체 이야기의 끝은 아니지만, 내부적으로 Proxy가 동작하는 방식의 시작입니다.
 하지만 Dispatcher를 사용하는 모든 컨트랙트의 업그레이드 가능한 스마트 컨트랙트에서 확장해야 하며, 그렇지 않으면 스토리지 충돌이 발생할 수 있다는 단점이 있습니다. 
