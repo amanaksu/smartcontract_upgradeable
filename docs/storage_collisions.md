@@ -9,11 +9,11 @@
 
 한 가지 큰 차이점은 LostStorage 컨트랙트가 Proxy를 상속하지 않는다는 것입니다. 따라서 내부적으로 Storage Layout이 분리되어 있고 둘 다 Storage Slot 0 에서 시작합니다.
 
-이걸로 무엇을 할까요?
+실행순서는 다음과 같습니다. 
 
 1. LostStorage 컨트랙트를 배포합니다. 
 2. ProxyCrash 컨트랙트를 배포하고, Constructor 매개변수로 LostStorage 컨트랙트 주소를 설정합니다. 
-3. LostStorage 컨트랙트가 Proxy 주소에서 실행중이라고 Remix 에 알립니다. 
+3. LostStorage 컨트랙트가 ProxyCrash 컨트랙트 주소에서 실행중이라고 Remix 에 알립니다. 
 4. LostStorage 컨트랙트의 myAddress() 를 호출합니다. 놀랍게도 0 이 아닌 주소가 반환됩니다. 충돌이 발생한겁니다. 
 
 ![remix_ide_1](./images/4_storage_collisions_1.png)
