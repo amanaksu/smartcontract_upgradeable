@@ -1,4 +1,4 @@
-## Eternal Storage without Proxy (번역)
+## Eternal Storage without Proxy (번역_한글)
 - 출처 : https://ethereum-blockchain-developer.com/110-upgrade-smart-contracts/04-eternal-storage/
 
 가장 먼저 해결해야 할 문제는 재배포 중 데이터 손실입니다. 가장 먼저 떠오르는 것은 로직과 스토리지를 분리하는 것입니다. 문제는 어떻게 그렇게 할 수 있을까요?
