@@ -40,7 +40,7 @@
 ```
 Example-Dispatcher 컨트랙트에서, Uint를 설정하고 Uint를 받습니다. 변수가 정확하게 저장되지만, Dispatcher는 setUint, getUint 함수를 알지 못합니다. 또한 Example에서 상속하지도 않는다. 
 
-![remix_ide_4]()
+![remix_ide_4](./images/3_first_proxy_remix_ide_4.png)
 
 이는 기본적으로 Dispatcher를 스토리지처럼 사용하지만, Example 컨트랙트에 저장된 로직을 사용하여 일어나는 일을 제오합니다. Dispatcher가 Example 컨트랙트와 "대화"하는 대신, Example 컨트랙트 코드가 Dispatcher 범위로 이동해 실행하고 Dispatcher 저장소를 변경한다. 이는 이전의 EternalStorage 패턴과 큰 차이점입니다.
 
@@ -56,15 +56,15 @@ getUint() 에서 uint * 2 결과를 반환하는 스마트 컨트랙트로 업�
 
 2. Example 컨트랙트를 배포합니다.
 
-![remix_ide_4](./images/3_first_proxy_remix_ide_4.png)
+![remix_ide_5](./images/3_first_proxy_remix_ide_4.png)
 
 3. 배포된 Example 컨트랙트 주소를 복사합니다. 
 
 4. 새로운 Example 컨트랙트 주소로 Dispatcher 의 `replace` 를 호출합니다. 
 
-![remix_ide_5](./images/3_first_proxy_remix_ide_5.png)
-
 ![remix_ide_6](./images/3_first_proxy_remix_ide_6.png)
+
+![remix_ide_7](./images/3_first_proxy_remix_ide_7.png)
 
 분명 내부적으로 많은 일이 있습니다. 그리고 이것이 전체 이야기의 끝은 아니지만, 내부적으로 Proxy가 동작하는 방식의 시작입니다.
 하지만 Dispatcher를 사용하는 모든 컨트랙트의 업그레이드 가능한 스마트 컨트랙트에서 확장해야 하며, 그렇지 않으면 스토리지 충돌이 발생할 수 있다는 단점이 있습니다. 
