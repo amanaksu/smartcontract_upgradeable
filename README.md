@@ -12,11 +12,12 @@ Upgradeable SmartContract Example Code
 1. Eternal Storage Pattern ([원문_영문](https://github.com/OpenZeppelin/openzeppelin-labs/tree/master/upgradeability_using_eternal_storage), [번역_한글](./docs/upgradeability_using_eternal_storage.md))
     - 제안자 : Elena Dimitrova ([blog 원문_영문](https://blog.colony.io/writing-upgradeable-contracts-in-solidity-6743f0eecc88/))
     - 최초 자신의 블로그에 아이디어를 게시함
-    - 상세설명 : [eternal storage without proxy (번역)](./docs/eternal_storage_without_proxy.md)
+    - 상세설명 : [eternal storage without proxy (번역_한글)](./docs/eternal_storage_without_proxy.md)
     
 2. Upgradeable.sol ([코드](https://gist.github.com/Arachnid/4ca9da48d51e23e5cfe0f0e14dd6318f))
     - 제안자 : Nick Johnson (ENS & 이더리움 재단 리드 개발자)
     - Nick Jonhnson 이 제안 방식에서 확장되기 시작함
+    - 상세설명 : [first_proxy (번역)](./docs/first_proxy.md)
 3. EIP-897 : DelegateProxy ([원문_영문](https://eips.ethereum.org/EIPS/eip-897), [번역_한글](./docs/erc_897_delegateProxy.md))
     - 생성일 : 2018-02-21
     - 제안자 : Jorge Izquierdo, Manuel Araoz
