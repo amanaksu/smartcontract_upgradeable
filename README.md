@@ -17,10 +17,11 @@ Upgradeable SmartContract Example Code
 2. Upgradeable.sol ([코드](https://gist.github.com/Arachnid/4ca9da48d51e23e5cfe0f0e14dd6318f))
     - 제안자 : Nick Johnson (ENS & 이더리움 재단 리드 개발자)
     - Nick Jonhnson 이 제안 방식에서 확장되기 시작함
-    - 상세설명 : [first_proxy (번역)](./docs/first_proxy.md)
+    - 상세설명 : [first_proxy (번역_한글)](./docs/first_proxy.md)
 3. EIP-897 : DelegateProxy ([원문_영문](https://eips.ethereum.org/EIPS/eip-897), [번역_한글](./docs/erc_897_delegateProxy.md))
     - 생성일 : 2018-02-21
     - 제안자 : Jorge Izquierdo, Manuel Araoz
+    - 상세설명 : [ERC-897 Proxy (번역_한글)](./docs/erc_897_proxy.md)
 4. EIP-1822 : Universal Upgradeable Proxy Standard (UUPS) ([원문_영문](https://eips.ethereum.org/EIPS/eip-1822))
     - 생성일 : 2019-03-04
     - 제안자 : Gabriel Barros, Patrick Gallagher
