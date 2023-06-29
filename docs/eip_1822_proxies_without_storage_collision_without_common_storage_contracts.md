@@ -1,7 +1,7 @@
 ## EIP-1822 : Proxies without Storage Collision without common Storage Contracts (번역_한글)
 - 출처 : https://ethereum-blockchain-developer.com/110-upgrade-smart-contracts/08-eip-1822-uups/
 
-[EIP-1822](./eip_1822_universal_upgradeable_proxy_standard_uups.md) : 범용 업그레이드 가능한 프록시 표준(UUPS)은 컴파일러가 어떤 Storage Slot을 사용할지 알려주는 일반적인 Storage 컨트랙트가 필요 없는 영리한 솔루션입니다.
+[EIP-1822 (번역_한글)](./eip_1822_universal_upgradeable_proxy_standard_uups.md) : 범용 업그레이드 가능한 프록시 표준(UUPS)은 컴파일러가 어떤 Storage Slot을 사용할지 알려주는 일반적인 Storage 컨트랙트가 필요 없는 영리한 솔루션입니다.
 즉, 매소드들 대신 랜덤 Storage Slot을 사용해 로직 컨트랙트 주소를 저장합니다. 
 
 예제를 보여드리기 전에, 중요한 두 줄이 있습니다. 
