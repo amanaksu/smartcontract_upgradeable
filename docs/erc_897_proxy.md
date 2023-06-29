@@ -1,7 +1,7 @@
 ## EIP-897: The first real Proxy (번역_한글)
 - 출처 : https://ethereum-blockchain-developer.com/110-upgrade-smart-contracts/07-eip-897-proxy/#eip-897-the-first-real-proxy
 
-두 변수가 동일한 Storage Slot을 사용하는 것을 방지하려면 모든 컨트랙트가 프록시에 필요한 추가 Storage를 알고 있어야 합니다. 다시 말해 프록시를 위한 Storage 기능만 수행하는 별도의 스마트 컨트랙트가 있다면, 이를 LostStorage의 기본 컨트랙트로 사용할 수 있습니다.([코드](../5_first_real_proxy.sol))
+두 변수가 동일한 Storage Slot을 사용하는 것을 방지하려면 모든 컨트랙트가 프록시에 필요한 추가 Storage를 알고 있어야 합니다. 다시 말해 프록시를 위한 Storage 기능만 수행하는 별도의 스마트 컨트랙트가 있다면, 이를 LostStorage의 기본 컨트랙트로 사용할 수 있습니다.([코드](../examples/5_first_real_proxy.sol))
 
 [EIP-897](./erc_897_delegateProxy.md)을 살펴보면 aragonOS와 zeppelinOS의 구현을 참조하는 것을 볼 수 있습니다. 내부적으로는 이 샘플 구현이 여기(aragonOS 와 zeppelinOS)에 있습니다. 관리자만 업그레이드 등을 수행할 수 있도록 소유권과 같은 기능을 추가한 것입니다. 본질적으로 그게 다입니다. 끝입니다.
 

@@ -25,6 +25,7 @@ Upgradeable SmartContract Example Code
 4. EIP-1822 : Universal Upgradeable Proxy Standard (UUPS) ([원문_영문](https://eips.ethereum.org/EIPS/eip-1822))
     - 생성일 : 2019-03-04
     - 제안자 : Gabriel Barros, Patrick Gallagher
+    - 상세설명 : [EIP-1822 UUPS (번역_한글)](./docs/eip_1822_proxies_without_storage_collision_without_common_storage_contracts.md)
 5. EIP-1967 : Standard Proxy Storage Slots ([원문_영문](https://eips.ethereum.org/EIPS/eip-1967))
     - 생성일 : 2019-04-24
     - 제안자 : Santiago Palladino
