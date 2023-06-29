@@ -11,7 +11,7 @@ Eternal Storage 패턴에서는 setters와 getters가 있는 스토리지를 별
 
 간단하게 설명하기 위해 엘레나 디미트로바가 예시에서 사용했던 것을 그대로 사용하겠습니다. 그러나 저는 이것을 크게 단순화하고 본질로 요약할 것입니다. 따라서 스마트 컨트랙트는 원격으로 완전하지는 않지만 내부에서 무슨 일이 일어나고 있는지 이해하는 데 가장 중요한 부분을 보여줍니다.
 
-솔리디티 0.8.1로 포팅했습니다. ([코드](../2_eternal_storage_1.sol))
+솔리디티 0.8.1로 포팅했습니다. ([코드](../examples/2_eternal_storage_1.sol))
 
 간단한 투표 스마트 컨트랙트입니다. `vote()`를 호출하면 숫자를 늘리는 기본적인 로직입니다.
 먼저, Eternal Storage 를 배포합니다. 이 컨트랙트는 상수이며 변경되지 않습니다. 
@@ -30,7 +30,7 @@ Eternal Storage 패턴에서는 setters와 getters가 있는 스토리지를 별
 
 모든 사람들이 원하는 만큼 투표할 수 있는 버그를 발견했다고 가졍해 보겠습니다. 버그를 수정하고 투표 스마트 컨트랙트만 다시 배포합니다. (이전 버전은 여전히 실행중이고 추가 코드없이는 중지할 방법이 없다는 점은 무시합니다.)
 
-모든 코드는 다음 코드로 교페합니다.  강조된 부분이 실제 변경된 부분입니다. ([코드](../2_eternal_storage_2.sol))
+모든 코드는 다음 코드로 교페합니다.  강조된 부분이 실제 변경된 부분입니다. ([코드](../examples/2_eternal_storage_2.sol))
 
 ![compare_code](./images/compare_code.png)
 
@@ -68,5 +68,5 @@ Eternal Storage 패턴에서는 setters와 getters가 있는 스토리지를 별
 ### 참고
 
 * 샘플 코드
-    - [eternal storage 1](../2_eternal_storage_1.sol)
-    - [eternal storage 2](../2_eternal_storage_2.sol)
+    - [eternal storage 1](../examples/2_eternal_storage_1.sol)
+    - [eternal storage 2](../examples/2_eternal_storage_2.sol)

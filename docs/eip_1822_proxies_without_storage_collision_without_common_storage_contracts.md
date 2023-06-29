@@ -10,7 +10,7 @@ sstore(0xc5f16f0fcc639fa48a6947836d9850f504798523bf8c9a3a87d5876cf622bcf7, contr
 
 어셈블리에서 특정 Storage Slot에 변수를 저장한 다음 해당 슬롯에서 다시 로드할 수 있습니다. 이 경우, EIP-1822는 keccak256("PROXIABLE") = "0xc5f16f0fcc639fa48a6947836d9850f504798523bf8c9a3a87d5876cf622bcf7"을 사용하여 Storage Slot을 생성합니다. 100% 무작위는 아니지만 충돌이 발생하지 않도록 충분히 무작위입니다. 적어도 정상적인 상황에서는요. [솔리디티의 스토리지 변수 레이아웃](https://docs.soliditylang.org/en/v0.8.2/internals/layout_in_storage.html#layout-of-state-variables-in-storage)을 자세히 살펴보면 충돌이 발생할 가능성이 거의 없음을 알 수 있습니다.
 
-EIP-1822를 사용한 전체 예제는 다음과 같습니다 ([코드](../6_uups.sol))
+EIP-1822를 사용한 전체 예제는 다음과 같습니다 ([코드](../examples/6_uups.sol))
 
 실행순서는 다음과 같습니다. 
 
