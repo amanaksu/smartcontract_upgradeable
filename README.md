@@ -29,6 +29,7 @@ Upgradeable SmartContract Example Code
 5. EIP-1967 : Standard Proxy Storage Slots ([원문_영문](https://eips.ethereum.org/EIPS/eip-1967))
     - 생성일 : 2019-04-24
     - 제안자 : Santiago Palladino
+    - 상세설명 : [EIP-1967 Standard Proxy Storage Slots (번역_한글)](./docs/eip_1967_standard_proxy_storage_slot.md)
 6. EIP-1538 : Transparent Contract Standard ([원문_영문](https://eips.ethereum.org/EIPS/eip-1538))
     - 생성일 : 2018-10-31
     - 제안자 : Nick Mudge
