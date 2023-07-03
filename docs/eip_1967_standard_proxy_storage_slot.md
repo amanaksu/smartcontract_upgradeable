@@ -7,7 +7,7 @@
 
 Storage slot `0x360894a13ba1a3210667c828492db98dca3e2076cc3735a920a3ca505d382bbc`(구체적으로 `bytes32(uint256(keccak256('eip1967.proxy.implementation')) - 1)`)는 로직 컨트랙트를 위해 예약되어 있습니다.
 
-그러나 EIP-1967은 실제 관리자 기능을 위한 비콘 컨트랙트와 스토리지도 추가합니다.
+그러나 [EIP-1967](./eip_1967_proxy_storage_slots.md)은 실제 관리자 기능을 위한 비콘 컨트랙트와 스토리지도 추가합니다.
 
 ### 비콘 컨트랙트 
 

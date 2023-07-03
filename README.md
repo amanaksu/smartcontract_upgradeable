@@ -22,17 +22,18 @@ Upgradeable SmartContract Example Code
     - 생성일 : 2018-02-21
     - 제안자 : Jorge Izquierdo, Manuel Araoz
     - 상세설명 : [ERC-897 Proxy (번역_한글)](./docs/erc_897_proxy.md)
-4. EIP-1822 : Universal Upgradeable Proxy Standard (UUPS) ([원문_영문](https://eips.ethereum.org/EIPS/eip-1822))
+4. EIP-1822 : Universal Upgradeable Proxy Standard (UUPS) ([원문_영문](https://eips.ethereum.org/EIPS/eip-1822), [번역_한글](./docs/eip_1822_universal_upgradeable_proxy_standard_uups.md))
     - 생성일 : 2019-03-04
     - 제안자 : Gabriel Barros, Patrick Gallagher
     - 상세설명 : [EIP-1822 UUPS (번역_한글)](./docs/eip_1822_proxies_without_storage_collision_without_common_storage_contracts.md)
-5. EIP-1967 : Standard Proxy Storage Slots ([원문_영문](https://eips.ethereum.org/EIPS/eip-1967))
+5. EIP-1967 : Proxy Storage Slots ([원문_영문](https://eips.ethereum.org/EIPS/eip-1967), [번역_한글](./docs/eip_1967_proxy_storage_slots.md))
     - 생성일 : 2019-04-24
     - 제안자 : Santiago Palladino
     - 상세설명 : [EIP-1967 Standard Proxy Storage Slots (번역_한글)](./docs/eip_1967_standard_proxy_storage_slot.md)
 6. EIP-1538 : Transparent Contract Standard ([원문_영문](https://eips.ethereum.org/EIPS/eip-1538))
     - 생성일 : 2018-10-31
     - 제안자 : Nick Mudge
+    - 상세설명 : [EIP-1538 Transparent Contract Standard (번역_한글)](./docs/eip_1538_transparent_contract_standard.md)
 7. EIP-2535 : Diamond Standard ([원문_영문](https://eips.ethereum.org/EIPS/eip-2535))
     - 생성일 : 2020-02-22
     - 제안자 : Nick Mudge
