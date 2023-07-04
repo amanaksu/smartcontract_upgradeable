@@ -1,7 +1,7 @@
 ## EIP-1538 : Transparent Contract Standard (번역_한글)
 - 출처 : https://ethereum-blockchain-developer.com/110-upgrade-smart-contracts/10-eip-1538-transparent-contract-standard/
 
-이제부터 EIP-1538 : Transparent Contract Standard 와 EIP-2535 : Diamond Standard 에 대해 이야기해 보겠습니다. EIP-2535은 EIP-1538를 대체하는 것으로 두가지 모두 Nick Mudge가 만들었습니다. 그래서 EIP-1538의 아이디어만 간략히 설명하겠습니다. 
+이제부터 EIP-1538 : Transparent Contract Standard([원문](https://eips.ethereum.org/EIPS/eip-1538)) 와 EIP-2535 : Diamond Standard([원문](https://eips.ethereum.org/EIPS/eip-2535)) 에 대해 이야기해 보겠습니다. EIP-2535은 EIP-1538를 대체하는 것으로 두가지 모두 Nick Mudge가 만들었습니다. 그래서 EIP-1538의 아이디어만 간략히 설명하겠습니다. 
 
 첫번째 구현은 로직 컨트랙트 전체를 정의하는 대신, 기본적인 로직 컨트랙트 기능만을 추출하고 주소를 설정합니다. 이렇게 하면, 원하는 만큼의 로직 컨트랙트를 가질 수 있고, 점진적으로 함수를 업데이트할 수 있습니다. 샘플 구현은 [Repository](https://github.com/mudgen/transparent-contracts-erc1538/tree/master/contracts)에서 확인할 수 있습니다. 
 
